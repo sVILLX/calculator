@@ -1,0 +1,12 @@
+html {
+    margin: 0px;
+    padding: 0px;
+    background-color: var(--secondary);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px 0px 0px;
+}

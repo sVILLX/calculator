@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <!-- Link para la fuente Montserrat -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css" />
+    <!-- LINK DEL CDN (Normalize CSS) -->
+    <!-- LOS CDN SE ASEGURAN QUE LAS LIBRERÍAS DE CUALQUIER PÁGINA WEB EXISTAN EN EL SERVIDOR MÁS CERCANO A TÍ -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/general.css">
+    <link rel="stylesheet" href="./assets/css/fonts.css">
+    <link rel="stylesheet" href="./assets/css/calculator.css">
+    <link rel="stylesheet" href="./assets/css/buttons.css">
+    <link rel="stylesheet" href="./assets/css/top.css">
+</head>
+<body>
+    <div id="calculator">
+        <!-- TOP -->
+        <div id="top">
+            <div id="circles">
+                <div class="circle close"></div>
+                <div class="circle minimize"></div>
+                <div class="circle hide"></div>
+            </div>
+            <h1 id="display">0</h1>
+        </div>
+        <!-- BUTTONS -->
+        <div id="buttons">
+            <button id="reset" class="symbol grey">AC</button>
+            <button id="negative" class="symbol grey">+/-</button>
+            <button id="percentage" class="symbol grey">%</button>
+            <button class="symbol orange">÷</button>
+            <button class="number dark">7</button>
+            <button class="number dark">8</button>
+            <button class="number dark">9</button>
+            <button class="symbol orange">x</button>
+            <button class="number dark">4</button>
+            <button class="number dark">5</button>
+            <button class="number dark">6</button>
+            <button class="symbol orange">-</button>
+            <button class="number dark">1</button>
+            <button class="number dark">2</button>
+            <button class="number dark">3</button>
+            <button class="symbol orange">+</button>
+            <button class="number dark"></button>
+            <button class="number dark">0</button>
+            <button id="dot" class="symbol dark">.</button>
+            <button id="equal" class="symbol orange">=</button>
+        </div>
+    </div>
+    <script src="./assets/javascript/main.js"></script>
+</body>
+</html>

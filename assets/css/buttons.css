@@ -1,0 +1,47 @@
+#buttons {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 300px;
+}
+
+.symbol, .number {
+    max-width: 60px;
+    font-size: 1rem;
+    flex: calc(25% - 1rem); /* 3 por fila */
+    aspect-ratio: 1 / 1;
+    box-sizing: border-box;
+    padding: 1rem;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+.orange {
+    background-color: var(--button-color-orange);
+    color: var(--white);
+}
+
+.orange:hover {
+    background-color: var(--button-color-orange-hover);
+}
+
+.dark {
+    background-color: var(--button-color-dark);
+    color: var(--white);
+}
+
+.dark:hover {
+    background-color: var(--button-color-dark-hover);
+}
+
+.grey {
+    background-color: var(--button-color-grey);
+    color: var(--white);
+}
+
+.grey:hover {
+    background-color: var(--button-color-grey-hover);
+}

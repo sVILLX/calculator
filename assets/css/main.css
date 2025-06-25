@@ -1,0 +1,13 @@
+:root {
+    --primary: #000000;
+    --secondary: #4D423E;
+    --button-color-dark: #1C1C1C;
+    --button-color-grey: #625D5D;
+    --button-color-orange: #FF8614;
+
+    --button-color-dark-hover: #151515;
+    --button-color-grey-hover: #545050;
+    --button-color-orange-hover: #e67a15;
+
+    --white: #FDFCFA;
+}
